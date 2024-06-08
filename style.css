@@ -140,3 +140,35 @@ body, html {
         width: 0;
     }
 }
+
+@media (max-width: 768px) {
+    body, html {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    #buttons {
+        margin: 20px;
+    }
+    .ToastBox {
+        bottom: 20px;
+        right: 20px;
+    }
+    .toast {
+        width: 95%;
+    }
+}
+@media (max-width: 480px) {
+    .btnone, .btntwo, .btnthree, .BtnOne, .BtnTwo, .BtnThree {
+        width: 80px;
+        height: 35px;
+        font-size: 14px;
+    }
+    .toast {
+        height: 70px;
+        font-size: 14px;
+    }
+    .toast i {
+        margin: 0 15px;
+        font-size: 30px;
+    }
+}
